@@ -1,5 +1,5 @@
 // Credit: https://github.com/leerob/leerob.io/blob/main/pages/api/now-playing.ts
-import { getNowPlaying } from 'lib/spotify.ts';
+import { getNowPlaying } from 'lib/spotify.js';
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 export default async function handler(
