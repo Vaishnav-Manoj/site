@@ -17,8 +17,8 @@ return (
    <h1 className="mt-5 mb-4">{hero.title}</h1>
    <p className="text-lg"><FontAwesomeIcon icon={faCloud}/> {hero.desc}</p>
   <p className="text-lg"><FontAwesomeIcon icon={faClock}/> {Time()}</p>
-  <p><FontAwesomeIcon icon={faCloud}/> It's currently 0°C in Qatar</p>
-  <p><FontAwesomeIcon icon={faCloud}/> Currently listening to: Nothing!</p>
+  <p><FontAwesomeIcon icon={faCloud}/> It's currently [weather] in xxxxx</p>
+  <p><FontAwesomeIcon icon={faCloud}/> Currently listening to: []!</p>
   <p><FontAwesomeIcon icon={faCalendarDay}/> 69 Years old</p>
 </div>
 );

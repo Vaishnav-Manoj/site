@@ -1,6 +1,6 @@
 export const meta = {
-  title: 'Nance - Portfolio',
-  description: 'Hey, I\'m Nance. I\'ve a knack for programming and meme-ing everything',
+  title: 'Nance',
+  description: 'Hey, I\'m Nance. I do stuff',
   author: 'Nance#1234',
   colour: '#e8e4c9',
   image: '/static/profile.gif'
@@ -25,15 +25,15 @@ export const projects = {
     },
     {
       title: 'Kciw',
-      description: 'A discord bot for the support server of one the biggest moderation bots on discord lorem ipsum your mom gay!',
+      description: 'explaining wtf this bot does',
       link: 'google.com',
       github: 'github.com/nance',
-      stack: ["Typescript", "Detritus", "MongoDB"]
+      stack: ["Javascript", "MongoDB"]
     },
     {
-      title: 'Hospital management',
-      description: 'fucked your hospital lmfao',
-      github: 'github.com/#',
+      title: 'password manager',
+      description: 'this project randomly generated passwords for me',
+      github: '',
       stack: ["Python", "MySQL"]
     }
   ]
@@ -84,7 +84,7 @@ export const contact = {
 
 export const resume = {
   english: {
-    name: "Nance",
+    name: "Nance (stolen from merlin)",
     description: "Motivated and independent software developer with significant experience in web development and deploying applications. Likes to build cool stuff and learn new things.",
     info: [{
       url: "google.com",

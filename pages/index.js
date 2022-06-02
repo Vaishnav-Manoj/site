@@ -4,7 +4,6 @@ import Hero from '@/components/Hero';
 import Projects from '@/components/Projects';
 import Stack from '@/components/Stack';
 import Nav from '@/components/Nav';
-import Blog from '@/components/Blog';
 import { meta } from '@/data/config';
 
 export default function Index() {
@@ -27,8 +26,6 @@ export default function Index() {
         <div className="p-0 space-y-10">
           <section id="projects"></section>
           <Projects />
-          <section id="blog"></section>
-          <Blog />
           <section id="stack"></section>
           <Stack />
           <section id="contact"></section>
