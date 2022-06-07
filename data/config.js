@@ -1,15 +1,16 @@
 export const meta = {
-  title: 'Nance',
-  description: 'Hey, I\'m Nance. I do stuff',
-  author: 'Nance#1234',
+  title: 'Vaishnav',
+  description: 'Hey, I\'m Vaishnav. I do stuff',
+  author: 'Vaishnav',
   colour: '#e8e4c9',
   image: '/static/profile.gif'
 }
 
 export const hero = {
-  title: "Hey there! I'm Nance.",
-  desc: "I write code and sometimes it works!"
+  title: "Hey there! I'm Vaishnav.",
+  desc: "Constantly pushing the boundaries of what I know to create weird and wonderful projects."
 };
+
 
 export const projects = {
   title: 'past projects',
@@ -21,13 +22,11 @@ export const projects = {
       link: 'google.com',
       github: '',
       image: "/static/profile.gif",
-      stack: ["NextJS", "TailwindCSS"]
+      stack: ["NextJS", "TailwindCSS", "MySQL"]
     },
     {
       title: 'Kciw',
-      description: 'explaining wtf this bot does',
-      link: 'google.com',
-      github: 'github.com/nance',
+      description: 'A bot that used to manage my daily needs',
       stack: ["Javascript", "MongoDB"]
     },
     {
@@ -84,7 +83,7 @@ export const contact = {
 
 export const resume = {
   english: {
-    name: "Nance (stolen from merlin)",
+    name: "Vaishnav",
     description: "Motivated and independent software developer with significant experience in web development and deploying applications. Likes to build cool stuff and learn new things.",
     info: [{
       url: "google.com",

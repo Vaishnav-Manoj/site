@@ -22,7 +22,7 @@ export default function Index() {
         Return to civilization by clicking <b><Link href = "/">here</Link></b> or the avatar!</h3>
   <img
     src="https://http.cat/404"
-    class="flex flex-wrap justify-center border border-lightText rounded-lg m-2 px-3 py-1 bg-black transition ease-in-out delay-4000 hover:animate-pulse"
+    className="flex flex-wrap justify-center border border-lightText rounded-lg m-2 px-3 py-1 bg-black transition ease-in-out delay-4000 hover:animate-pulse"
     alt="error 404 cat"
   />
       </div>

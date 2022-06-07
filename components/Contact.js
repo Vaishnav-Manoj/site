@@ -24,7 +24,7 @@ export default function Stack() {
         </a>
       </p>
                <div className="sticky top-0 z-50 flex flex-row items-center justify-between w-full">
-     <div class="flex gap-x-4">
+     <div className="flex gap-x-4">
       <Link href="/resume"><button title="My Resume" className="w-9 h-9 bg-gray-200 rounded-lg dark:bg-gray-600 flex items-center justify-center  hover:ring-2 ring-gray-300  transition-all"><FontAwesomeIcon icon={faFile} /> </button></Link>
       <Link href="/resume"><button title="My Resume" className="w-9 h-9 bg-gray-200 rounded-lg dark:bg-gray-600 flex items-center justify-center  hover:ring-2 ring-gray-300  transition-all"><FontAwesomeIcon icon={faFile} /> </button></Link>
       <Link href="/resume"><button title="My Resume" className="w-9 h-9 bg-gray-200 rounded-lg dark:bg-gray-600 flex items-center justify-center  hover:ring-2 ring-gray-300  transition-all"><FontAwesomeIcon icon={faFile} /> </button></Link>

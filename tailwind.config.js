@@ -1,23 +1,15 @@
 module.exports = {
   mode: 'jit',
   content: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-  darkMode: 'class', // or 'media' or 'class'
+  darkMode: 'class',
   theme: {
     
     fontFamily: {
       sans: ['Be Vietnam Pro', 'system-ui', 'sans']
     },
     extend: {
-            keyframes: {
-        wave: {
-          '0%, 100%, 20%, 50%, 80%': { transform: 'translateY(0)' },
-          '40%': { transform: 'translateY(-30px)' },
-          '60%': { transform: 'translateY(-15px)' },
-        },
-      },
-      animation: {
-        'waving-hand': 'wave 4s linear infinite',
-      },
+      keyframes: {},
+      animation: {},
       colors: {
         dark: '#000',
         white: '#fff',
@@ -31,7 +23,6 @@ module.exports = {
       }
     }
   },
-  variants: {
-  },
+  variants: {},
   plugins: []
 };

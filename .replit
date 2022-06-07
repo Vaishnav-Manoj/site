@@ -1,6 +1,7 @@
 entrypoint = "pages/index.js"
 
 run = "npm run dev"
+language = "nodejs"
 
 [nix]
 channel = "stable-21_11"
